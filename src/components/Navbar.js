@@ -10,7 +10,7 @@ import Input from '@mui/material/Input';
 
 const Navbar = ({ isLoggedIn, isAdmin }) => {
   const handleLogout = () => {
-    // Implement logout functionality here
+   
   };
 
   return (
@@ -24,7 +24,7 @@ const Navbar = ({ isLoggedIn, isAdmin }) => {
             <Input
               type="text"
               placeholder="Search"
-              // Handle search functionality here
+           
             />
             <Button component={Link} to="/home">
               Home
